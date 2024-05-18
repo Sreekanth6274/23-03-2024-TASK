@@ -1,0 +1,49 @@
+.team{
+    color: brown;
+    background-color: aqua;
+}
+.ipl{
+    height: 250px;
+    width: 250px;
+}
+.iplteams{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.ipl1{
+    /* order: 3; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 2; */
+    /* align-self:center; */
+    /* flex-basis: 300px; */
+}
+
+.ipl2{
+    /* order: 2; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 2; */
+    /* align-self: flex-end; */
+
+    /* flex-basis: 250px; */
+
+}
+
+.ipl3{
+    /* order: 4; */
+    /* flex-grow: 2; */
+
+    /* align-self: center; */
+    /* flex-basis: 100px; */
+}
+
+.ipl4{
+/* order: 1; */
+/* flex-grow: 3; */
+}
